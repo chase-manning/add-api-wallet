@@ -3,7 +3,7 @@ import utils
 from hyperliquid.utils import constants
 from hyperliquid.info import Info
 
-CONTRACT = "0xe8475439795725172b77dBFB9b659E03Cd7Fb0EB"
+CONTRACT = "0x58CB3Be409145bf92af7C03A02c9e45683A51620"
 
 
 def main():
