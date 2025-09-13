@@ -13,7 +13,7 @@ contract SetUpApiWalletScript is Script {
         vm.startBroadcast(deployerPrivateKey_);
         ApiWalletTest apiWalletTest_ = new ApiWalletTest();
         console.log("Contract deployed at:", address(apiWalletTest_));
-        apiWalletTest_.addApiWallet(deployerAddress_, "");
+        apiWalletTest_.addApiWallet(deployerAddress_, "TEST");
         vm.stopBroadcast();
     }
 }
