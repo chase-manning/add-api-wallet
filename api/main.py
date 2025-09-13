@@ -11,7 +11,8 @@ def main():
         constants.MAINNET_API_URL, skip_ws=True)
     exchange = Exchange(exchange.wallet, exchange.base_url,
                         vault_address=CONTRACT)
-    exchange.update_leverage(10, "ETH")
+    result = exchange.update_leverage(10, "ETH")
+    print(result)
 
 
 if __name__ == "__main__":
