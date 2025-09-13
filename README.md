@@ -16,3 +16,4 @@ This is a repo to help replicate the issue with have with the Add API Wallet fun
 - Modify `api/main.py` to set the `CONTRACT` variable equal to the one that was just deployed
 - Install dependencies with pip `hyperliquid-python-sdk` and `python-dotenv`
 - Run with `python api/main.py`
+- See that there is an error logged (this can be replicated with calling any function, `update_leverage` is just a conveneint one)
